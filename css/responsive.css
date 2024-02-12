@@ -1,18 +1,14 @@
-/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
-
-
-/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-search {
         padding: 15px 0px;
     }
 }
 
-
-/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
-
 @media only screen and (min-width: 599px) and (max-width: 767px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
     .logo {
         text-align: center;
     }
@@ -26,7 +22,7 @@
         height: 256px;
         overflow-y: auto;
     }
-    .megamenu>.row [class*="col-"] {
+    .megamenu > .row [class*="col-"] {
         padding: 0px;
     }
     .menu-area-main .megamenu .men-cat {
@@ -81,14 +77,15 @@
     }
 }
 
-
-/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
-
 @media only screen and (min-width: 280px) and (max-width: 599px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
     .cart-content-right {
         padding-bottom: 5px;
     }
-    .megamenu>.row [class*="col-"] {
+    .megamenu > .row [class*="col-"] {
         padding: 0px;
     }
     .menu-area-main .megamenu .men-cat {
@@ -143,27 +140,27 @@
         left: 40px;
         top: 110%;
     }
-    .electronic_img {
+    .men_img {
         margin: 20px 0px;
         min-height: 280px;
     }
-    #electronic_main_slider a.carousel-control-next {
+    #men_slider a.carousel-control-next {
         right: 40px;
         top: 110%;
     }
-    #electronic_main_slider a.carousel-control-prev {
+    #men_slider a.carousel-control-prev {
         left: 40px;
         top: 110%;
     }
-    .jewellery_img {
+    .kid_img {
         margin: 20px 0px;
         min-height: 0;
     }
-    #jewellery_main_slider a.carousel-control-prev {
+    #kid_slider a.carousel-control-prev {
         left: 40px;
         top: 70%;
     }
-    #jewellery_main_slider a.carousel-control-next {
+    #kid_slider a.carousel-control-next {
         right: 40px;
         top: 70%;
     }
@@ -173,6 +170,10 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
     .banner_bg_main {
         background-size: 100% 100%;
     }
@@ -194,27 +195,27 @@
         left: 40px;
         top: 110%;
     }
-    .electronic_img {
+    .men_img {
         margin: 20px 0px;
         min-height: 190px;
     }
-    #electronic_main_slider a.carousel-control-next {
+    #men_slider a.carousel-control-next {
         right: 40px;
         top: 110%;
     }
-    #electronic_main_slider a.carousel-control-prev {
+    #men_slider a.carousel-control-prev {
         left: 40px;
         top: 110%;
     }
-    .jewellery_img {
+    .kid_img {
         margin: 20px 0px;
         min-height: 0;
     }
-    #jewellery_main_slider a.carousel-control-prev {
+    #kid_slider a.carousel-control-prev {
         left: 40px;
         top: 70%;
     }
-    #jewellery_main_slider a.carousel-control-next {
+    #kid_slider a.carousel-control-next {
         right: 40px;
         top: 70%;
     }
@@ -265,7 +266,7 @@
         font-size: 14px;
     }
     .nav-link {
-        padding: .4rem 0px;
+        padding: 0.4rem 0px;
         color: #fff;
     }
     .lang_box {
@@ -286,7 +287,7 @@
     .fashion_section {
         padding-bottom: 100px;
     }
-    .electronic_img {
+    .men_img {
         margin: 20px 0px;
         min-height: 145px;
     }
@@ -294,7 +295,7 @@
         margin: 20px 0px;
         min-height: 246px;
     }
-    .jewellery_img {
+    .kid_img {
         margin: 20px 0px;
         min-height: 0;
     }
@@ -302,7 +303,7 @@
         font-size: 14px;
     }
     .price_text {
-        font-size: 14px
+        font-size: 14px;
     }
     .buy_bt a {
         font-size: 12px;
@@ -313,11 +314,11 @@
     .box_main {
         padding: 20px 10px;
     }
-    #jewellery_main_slider a.carousel-control-prev {
+    #kid_slider a.carousel-control-prev {
         left: 35px;
         top: 65%;
     }
-    #jewellery_main_slider a.carousel-control-next {
+    #kid_slider a.carousel-control-next {
         right: 35px;
         top: 65%;
     }
@@ -329,11 +330,11 @@
         right: 33px;
         top: 101%;
     }
-    #electronic_main_slider a.carousel-control-prev {
+    #men_slider a.carousel-control-prev {
         left: 33px;
         top: 101%;
     }
-    #electronic_main_slider a.carousel-control-next {
+    #men_slider a.carousel-control-next {
         right: 33px;
         top: 101%;
     }
@@ -353,6 +354,10 @@
 }
 
 @media (max-width: 575px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
     .banner_bg_main {
         background-size: cover;
     }
@@ -394,7 +399,7 @@
         font-size: 14px;
     }
     .nav-link {
-        padding: .4rem 0px;
+        padding: 0.4rem 0px;
         color: #fff;
     }
     .lang_box {
@@ -415,7 +420,7 @@
     .fashion_section {
         padding-bottom: 100px;
     }
-    .electronic_img {
+    .men_img {
         margin: 20px 0px;
         min-height: 0;
     }
@@ -423,15 +428,15 @@
         margin: 20px 0px;
         min-height: 0;
     }
-    .jewellery_img {
+    .kid_img {
         margin: 20px 0px;
         min-height: 0;
     }
-    #jewellery_main_slider a.carousel-control-prev {
+    #kid_slider a.carousel-control-prev {
         left: 15px;
         top: 86%;
     }
-    #jewellery_main_slider a.carousel-control-next {
+    #kid_slider a.carousel-control-next {
         right: 15px;
         top: 86%;
     }
@@ -443,11 +448,11 @@
         right: 15px;
         top: 101%;
     }
-    #electronic_main_slider a.carousel-control-prev {
+    #men_slider a.carousel-control-prev {
         left: 15px;
         top: 101%;
     }
-    #electronic_main_slider a.carousel-control-next {
+    #men_slider a.carousel-control-next {
         right: 15px;
         top: 101%;
     }
