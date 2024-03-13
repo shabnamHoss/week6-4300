@@ -1,18 +1,17 @@
-/* LOGIN FORM */ 
-.form-container{
+/* LOGIN FORM */
+.form-container {
     border: 1px solid #666666;
     padding: 30px 20px;
     margin: 10px;
     background-color: #666666;
     color: #fff;
     border-radius: 5px;
-  }
-  .btn-costum {
+}
+.btn-costum {
     background-color: #f26522 !important;
-    color:#fff !important;
+    color: #fff !important;
 }
 .btn-costum:hover {
     background-color: #db6129 !important;
-    color:#fff !important;
     font-weight: 700;
 }
